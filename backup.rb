@@ -5,15 +5,22 @@ require 'trollop'
       
 config = JSON.parse(File.read 'config.json')
 
-options = { :directory => config["directory"], 
-            :zipfile_name => config["zipfile_name"] }
+# options = { :directory => config["directory"], 
+#             :zipfile_name => config["zipfile_name"] }
+
 # Execute flags for compression level
 opts = Trollop::options do
         opt:no, "NO_COMPRESSION"
         opt:best, "BEST_COMPRESSION"
         opt:default, "DEFAULT_COMPRESSION"
+        opt:ver, "Backcrypt - version 0.1.1"
     end
-  
+
+# Program version output via flag
+if opts[:ver] == true
+        puts "Backcrypt - version 0.1.1"
+end 
+
 #Archive configuration
 
 Zip.setup do |c|
