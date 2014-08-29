@@ -4,7 +4,7 @@ backcrypt
 **backracpt** is a Backup- and encryption-script, developed in ruby.
 
 ## Download
-* [Version 0.1] (coming soon!)
+* [Version 0.1] (https://github.com/Lyr3x/backcrypt/archive/0.1.zip)
 
 ## License
 see [LICENSE](https://github.com/Lyr3x/backcrypt/blob/master/LICENSE.md) files
