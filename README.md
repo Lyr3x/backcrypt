@@ -9,6 +9,10 @@ backcrypt
 ## License
 see [LICENSE](https://github.com/Lyr3x/backcrypt/blob/master/LICENSE.md) files
 
+## Contributors
+* [Lyrex] (https://github.com/Lyr3x)
+* [Nesurion] (https://github.com/Nesurion)
+
 ## Usage
 - ```$ git clone https://github.com/Lyr3x/backcrypt.git```
 - ```$ ruby backup.rb -h``` for help
