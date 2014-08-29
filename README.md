@@ -1,7 +1,7 @@
 backcrypt
 ======
 
-**backracpt** is a Backup- and encryption-script, developed in ruby.
+**backcrypt** is a Backup- and encryption-script, developed in ruby.
 
 ## Download
 * [Version 0.1] (https://github.com/Lyr3x/backcrypt/archive/0.1.zip)
@@ -17,7 +17,7 @@ see [LICENSE](https://github.com/Lyr3x/backcrypt/blob/master/LICENSE.md) files
 - ```$ ruby backup.rb --unzip``` for unzip the archive to de destination folder
 
 ## Configuration
-Configuration example can be edit in config.json.example
+Configuration example can be edited in config.json.example
 
 ## Coming Features
 
