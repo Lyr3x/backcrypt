@@ -24,8 +24,6 @@ Configuration example can be edit in config.json.example
   - automatic dropbox/s3/google drive upload
 
 ### Compression
-  - .rar
-  - .zip
   - .tar.gz
 
 ### Encryption:
