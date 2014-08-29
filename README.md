@@ -1,16 +1,22 @@
 backcrypt
 ======
 
-Small backup- and encryption-script, developed in ruby.
+**backracpt** is a Backup- and encryption-script, developed in ruby.
 
-Configuration
---------------
-Directory path, and zipfile_name configuration in config.json
-e.g.:
-{
-"directory" : "/Users/<username>/Desktop/test/",
-"zipfile_name" : "/Users/<username>/Desktop/archive.zip"
-}
+## Download
+*[Version 0.1] (coming soon!)
+
+## Usage
+*```$ git clone https://github.com/Lyr3x/backcrypt.git```
+*```$ ruby backup.rb -h``` for help
+
+## Configuration
+*Directory path, and zipfile_name configuration in config.json
+*e.g.:
+*```{
+*"directory" : "/Users/<username>/Desktop/test/",
+*"zipfile_name" : "/Users/<username>/Desktop/archive.zip"
+*}```
 
 Coming Features
 
