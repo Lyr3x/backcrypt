@@ -14,7 +14,7 @@ see [LICENSE](https://github.com/Lyr3x/backcrypt/blob/master/LICENSE.md) files
 - ```$ ruby backup.rb -h``` for help
 - ```$ ruby backup.rb --best``` for best compression
 - ```$ ruby backup.rb --no``` for no compression
-- ```$ ruby backup.rb --unzip``` for unzip the archive to de destination folder
+- ```$ ruby backup.rb --unzip``` for unzip the archive to the destination folder
 
 ## Configuration
 Configuration example can be edited in config.json.example
