@@ -1,4 +1,5 @@
 {
-	"directory" : /<path>/<to>/<directory>
-	"zipfile_name" : /<path>/<to>/<zipfile>.zip/
+	"directory" : "/<path>/<to>/<directory>",
+	"zipfile_name" : "/<path>/<to>/<zipfile>.zip/","
+	"unzip_directory" : "/<path>/<to>/<unzip_directory>"
 }
