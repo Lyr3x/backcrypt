@@ -34,7 +34,5 @@ Configuration example can be edited in config.json.example
   - .tar.gz
 
 ### Encryption:
-No concrete plan yet. Maybe i will implement the gibberish RubyGem.
-
-feedback very welcome!
+coming soon!
 
