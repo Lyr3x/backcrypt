@@ -5,20 +5,16 @@ require	'zip'
 
 config = JSON.parse(File.read 'config.json')
 
-Zip::File.open(config["zipfile_name"]) do |zip_file|
-  # Handle entries one by one
-  zip_file.each do |entry|
-    # Extract to file/directory/symlink
-    puts "Extracting #{entry.name}"
-    entry.extract(dest_file)
-
-    # Read into memory
-    content = entry.get_input_stream.read
-  end
-
-  # Find specific entry
-  #entry = zip_file.glob('*.csv').first
-  #puts entry.get_input_stream.read
+def unzip_file (file, destination)
+	Zip::File.open(file) do |zip_file|
+		zip_file.each do |f|
+			f_path = File.join(destination, f.name)
+			FileUtils.mkdir_p(File.dirname(f_path))
+			f.extract(f_path) 
+		end
+	end
 end
+
+unzip_file(config["zipfile_name"], config["directoryx"])
 
 
