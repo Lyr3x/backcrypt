@@ -10,8 +10,8 @@ backcrypt
 see [LICENSE](https://github.com/Lyr3x/backcrypt/blob/master/LICENSE.md) files
 
 ## Usage
-```$ git clone https://github.com/Lyr3x/backcrypt.git```
-```$ ruby backup.rb -h``` for help
+- ```$ git clone https://github.com/Lyr3x/backcrypt.git```
+- ```$ ruby backup.rb -h``` for help
 
 ## Configuration
 Configuration example can be edit in config.json.example
