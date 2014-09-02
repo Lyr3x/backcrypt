@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-require 'zip'
-require 'json'
-require 'trollop'
+gem 'zip'
+gem 'json'
+gem 'trollop'
