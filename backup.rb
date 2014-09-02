@@ -29,6 +29,7 @@ def unzip_file (file, destination)
     end
 end
 
+#Unzip flag setting
 if opts[:unzip] == true
     unzip_file(config["zipfile_name"], config["unzip_directory"])
 end
@@ -59,6 +60,6 @@ end
 #Creating archive
 Zip::File.open(config["zipfile_name"], Zip::File::CREATE) do |zipfile|
     Dir[File.join(config["directory"], '**', '**')].each do |file|
-      zipfile.add(file.sub(config["directory"], ''), file)
+      zipfile.add(file.sub(config["directory"],''), file)
     end
 end
